@@ -2,20 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ed4974-e414-4086-8151-dbe6d64e6f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/factory/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/HumanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/WhiteHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/YellowHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/AbstractHumanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/AbstractWhiteHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/HumanEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/HumanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/MaleHumanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/WhiteHumanMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/com/yt/factory/WhiteHumanWomen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/adapter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/IOutUserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/IOuterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/IUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/OuterUserInfoAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/adapter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/facade.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/img/adapter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/img/facade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/facade.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/LetterProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/LetterProcessImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/ModenPostOffice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,35 +36,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/strategy.md">
+        <entry file="file://$PROJECT_DIR$/doc/facade.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="176">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/proxy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/singleton.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="88">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="44">
+                <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,10 +48,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/singleton/src/Singleton03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <entry file="file://$PROJECT_DIR$/doc/adapter.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="22">
+                <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -85,6 +73,10 @@
         <option value="$PROJECT_DIR$/doc/proxy.md" />
         <option value="$PROJECT_DIR$/doc/singleton.md" />
         <option value="$PROJECT_DIR$/singleton/src/Singleton03.java" />
+        <option value="$PROJECT_DIR$/doc/factory.md" />
+        <option value="$PROJECT_DIR$/doc/img/facade.md" />
+        <option value="$PROJECT_DIR$/doc/facade.md" />
+        <option value="$PROJECT_DIR$/doc/adapter.md" />
       </list>
     </option>
   </component>
@@ -96,9 +88,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="y" value="1073" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="95" />
+    <option name="y" value="-1049" />
     <option name="width" value="1680" />
     <option name="height" value="962" />
   </component>
@@ -107,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,13 +115,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566624896838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566788025020" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -140,13 +132,14 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/doc/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$/doc/img" />
       <recent name="$PROJECT_DIR$/book" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/img" />
+      <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,15 +166,16 @@
       <updated>1566438820063</updated>
       <workItem from="1566438821805" duration="2275000" />
       <workItem from="1566522123120" duration="3279000" />
-      <workItem from="1566620528873" duration="1402000" />
+      <workItem from="1566620528873" duration="1843000" />
+      <workItem from="1566785149189" duration="1740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6956000" />
+    <option name="totallyTimeSpent" value="9137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="1073" width="1680" height="962" extended-state="0" />
+    <frame x="95" y="-1049" width="1680" height="962" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49489796" visible="true" weight="0.21607143" />
       <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.18017058" />
@@ -192,7 +186,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.50510204" side_tool="true" weight="0.21611722" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32850778" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.328341" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.37416482" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" order="3" sideWeight="0.49840087" weight="0.43875277" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -204,7 +198,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49946696" visible="true" weight="0.40092167" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49946696" visible="true" weight="0.44585255" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,11 +264,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/strategy.md">
+    <entry file="file://$PROJECT_DIR$/doc/factory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/Singleton03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/singleton.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="88">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
         </state>
@@ -290,20 +301,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/singleton.md">
+    <entry file="file://$PROJECT_DIR$/doc/strategy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <first_editor relative-caret-position="176">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton/src/Singleton03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+    <entry file="file://$PROJECT_DIR$/doc/facade.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/adapter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
