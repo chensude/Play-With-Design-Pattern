@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ed4974-e414-4086-8151-dbe6d64e6f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/command/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/command.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/AddRequirementCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/DeletePageComand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/GodeGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/PageGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/com/yt/RequirementGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/command.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/img/command.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/decorate.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/img/decorator.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,15 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/command.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="22">
-                <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/adapter/src/OuterUserInfoAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -63,6 +45,8 @@
         <option value="$PROJECT_DIR$/doc/builder.md" />
         <option value="$PROJECT_DIR$/doc/bridge.md" />
         <option value="$PROJECT_DIR$/doc/command.md" />
+        <option value="$PROJECT_DIR$/doc/decorator.md" />
+        <option value="$PROJECT_DIR$/doc/decorate.md" />
       </list>
     </option>
   </component>
@@ -85,7 +69,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,19 +79,60 @@
             <path>
               <item name="Play-With-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Play-With-Design-Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-With-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-With-Design-Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-With-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-With-Design-Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-With-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-With-Design-Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-With-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-With-Design-Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-With-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-With-Design-Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-With-Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-With-Design-Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yt" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567131527382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567391420290" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -118,14 +142,14 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/img" />
+      <recent name="$PROJECT_DIR$/doc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/img" />
       <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$/book" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/doc/img" />
-      <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,18 +181,21 @@
       <workItem from="1566867333013" duration="3978000" />
       <workItem from="1566954957653" duration="3376000" />
       <workItem from="1567044281175" duration="983000" />
-      <workItem from="1567126813559" duration="2141000" />
+      <workItem from="1567126813559" duration="2869000" />
+      <workItem from="1567132529625" duration="643000" />
+      <workItem from="1567386511965" duration="2736000" />
+      <workItem from="1567390919827" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20631000" />
+    <option name="totallyTimeSpent" value="25105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-1048" width="1680" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49489796" visible="true" weight="0.21607143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49489796" visible="true" weight="0.22916667" />
       <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.18017058" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -302,26 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/adapter.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/facade.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/template.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -340,16 +347,6 @@
     <entry file="file://$PROJECT_DIR$/facade/src/LetterProcessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/builder.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/facade/src/LetterProcess.java">
@@ -375,10 +372,79 @@
     <entry file="file://$PROJECT_DIR$/doc/command.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <first_editor relative-caret-position="176">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/src/main/java/com/yt/template/HummerH1Model.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/com/yt/proxy/ProxySubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/com/yt/proxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/adapter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/builder.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/decorator.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/img/decorator.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/decorate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/facade.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/com/yt/proxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/src/OuterUserInfoAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
